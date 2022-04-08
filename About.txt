@@ -12,3 +12,7 @@
 
 11 - array and objects loops
 12 - array Reduce
+
+Explain with Videos 
+https://drive.google.com/drive/folders/12yqKTFbinlVc4adTUvFEJ3B1UYzWeFvI?usp=sharing
+

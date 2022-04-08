@@ -1,12 +1,15 @@
 ////Abstract Class
 
 abstract class Base {
-  protected abstract hello: string;
+   abstract hello: string;
+ 
   abstract race(): void;
+  
   sum() {
     console.log("Initiated");
   }
 }
+
 
 class Derived extends Base {
   /////////////////////MUST BE INITIATED

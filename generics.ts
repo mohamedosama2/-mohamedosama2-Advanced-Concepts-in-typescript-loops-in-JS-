@@ -41,6 +41,7 @@ abstract class BaseAbstractGen<T> {
   constructor(ourName: T) {
     this.name = ourName;
   }
+
   abstract fun1(): T[];
   print() {
     console.log(this.name);
@@ -88,6 +89,9 @@ const user = new Statically();
 let nameing = Statically.nameF; /////////////////ONLY WAY TO ACCESS STATIC
 console.log(nameing);
 
+
+
+
 //////////////////PROTECTED
 class Protection {
   protected naming = "sgsg";
@@ -103,6 +107,7 @@ class ExteProtection extends Protection {
     console.log(this.namning2);
   }
 }
+
 const prot = new ExteProtection();
 /* console.log(prot.naming); */ /////////////ERRROR
 console.log(prot.namning2);
@@ -116,8 +121,11 @@ class ReadingOnle {
     ///////////////////////CANT BE CHANGED
   }
 }
+const r=new ReadingOnle()
+
 
 ////////////////////////////////////SUPPPER
+
 
 class BaseSuper {
   constructor(
